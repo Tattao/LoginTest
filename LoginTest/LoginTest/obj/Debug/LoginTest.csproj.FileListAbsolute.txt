@@ -2,8 +2,10 @@ E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LoginTest.exe.config
 E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LoginTest.exe
 E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LoginTest.pdb
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.csprojResolveAssemblyReference.cache
-E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.Form1.resources
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.Properties.Resources.resources
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.csproj.GenerateResource.Cache
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.exe
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.pdb
+E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_Login.resources
+E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_Register.resources
+E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_RetrievePwd.resources

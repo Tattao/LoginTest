@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace LoginTest
 {
-    public partial class Form1 : Form
+    public partial class frm_RetrievePwd : Form
     {
-        public Form1()
+        public frm_RetrievePwd()
         {
             InitializeComponent();
+        }
+
+        private void frm_RetrievePwd_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

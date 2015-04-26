@@ -1,6 +1,6 @@
 ﻿namespace LoginTest
 {
-    partial class Form1
+    partial class frm_Login
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txt_AccountPwd = new System.Windows.Forms.TextBox();
             this.btn_Login = new System.Windows.Forms.Button();
+            this.llbl_Register = new System.Windows.Forms.LinkLabel();
+            this.llbl_RetrievePwd = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // btn_Close
@@ -45,6 +47,7 @@
             this.btn_Close.TabIndex = 0;
             this.btn_Close.Text = "退出";
             this.btn_Close.UseVisualStyleBackColor = true;
+            this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
             // chk_SavePwd
             // 
@@ -97,7 +100,29 @@
             this.btn_Login.Text = "登录";
             this.btn_Login.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // llbl_Register
+            // 
+            this.llbl_Register.AutoSize = true;
+            this.llbl_Register.Location = new System.Drawing.Point(388, 70);
+            this.llbl_Register.Name = "llbl_Register";
+            this.llbl_Register.Size = new System.Drawing.Size(53, 12);
+            this.llbl_Register.TabIndex = 7;
+            this.llbl_Register.TabStop = true;
+            this.llbl_Register.Text = "注册账号";
+            this.llbl_Register.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbl_Register_LinkClicked);
+            // 
+            // llbl_RetrievePwd
+            // 
+            this.llbl_RetrievePwd.AutoSize = true;
+            this.llbl_RetrievePwd.Location = new System.Drawing.Point(304, 161);
+            this.llbl_RetrievePwd.Name = "llbl_RetrievePwd";
+            this.llbl_RetrievePwd.Size = new System.Drawing.Size(53, 12);
+            this.llbl_RetrievePwd.TabIndex = 8;
+            this.llbl_RetrievePwd.TabStop = true;
+            this.llbl_RetrievePwd.Text = "忘记密码";
+            this.llbl_RetrievePwd.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbl_RetrievePwd_LinkClicked);
+            // 
+            // frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,6 +130,8 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(505, 299);
             this.ControlBox = false;
+            this.Controls.Add(this.llbl_RetrievePwd);
+            this.Controls.Add(this.llbl_Register);
             this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.txt_AccountPwd);
             this.Controls.Add(this.label2);
@@ -114,7 +141,7 @@
             this.Controls.Add(this.btn_Close);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frm_Login";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -132,6 +159,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_AccountPwd;
         private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.LinkLabel llbl_Register;
+        private System.Windows.Forms.LinkLabel llbl_RetrievePwd;
     }
 }
 
