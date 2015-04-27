@@ -10,6 +10,7 @@ namespace LTModel
     {
         private string adminUser = string.Empty;
         private string adminPwd = string.Empty;
+        private string emailAddress = string.Empty;
 
         public string AdminUser
         {
@@ -20,6 +21,11 @@ namespace LTModel
         {
             get { return adminPwd; }
             set { adminPwd = value; }
+        }
+        public string EmailAddress
+        {
+            get { return emailAddress; }
+            set { emailAddress = value; }
         }
     }
 }

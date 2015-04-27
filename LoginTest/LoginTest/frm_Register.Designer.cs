@@ -38,6 +38,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_RegisterConfirm = new System.Windows.Forms.TextBox();
+            this.lab_Email = new System.Windows.Forms.Label();
+            this.lab_Name = new System.Windows.Forms.Label();
+            this.lab_Password = new System.Windows.Forms.Label();
+            this.lab_PwdConfirm = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_RegisterSave
@@ -54,6 +58,7 @@
             // 
             this.txt_RegisterPwd.Location = new System.Drawing.Point(174, 146);
             this.txt_RegisterPwd.Name = "txt_RegisterPwd";
+            this.txt_RegisterPwd.PasswordChar = '*';
             this.txt_RegisterPwd.Size = new System.Drawing.Size(175, 21);
             this.txt_RegisterPwd.TabIndex = 14;
             // 
@@ -111,7 +116,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(95, 197);
+            this.label4.Location = new System.Drawing.Point(95, 194);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 16;
@@ -119,16 +124,57 @@
             // 
             // txt_RegisterConfirm
             // 
-            this.txt_RegisterConfirm.Location = new System.Drawing.Point(174, 194);
+            this.txt_RegisterConfirm.Location = new System.Drawing.Point(174, 188);
             this.txt_RegisterConfirm.Name = "txt_RegisterConfirm";
+            this.txt_RegisterConfirm.PasswordChar = '*';
             this.txt_RegisterConfirm.Size = new System.Drawing.Size(175, 21);
             this.txt_RegisterConfirm.TabIndex = 17;
+            // 
+            // lab_Email
+            // 
+            this.lab_Email.AutoSize = true;
+            this.lab_Email.Location = new System.Drawing.Point(355, 72);
+            this.lab_Email.Name = "lab_Email";
+            this.lab_Email.Size = new System.Drawing.Size(125, 12);
+            this.lab_Email.TabIndex = 18;
+            this.lab_Email.Text = "请输入正确邮箱地址！";
+            // 
+            // lab_Name
+            // 
+            this.lab_Name.AutoSize = true;
+            this.lab_Name.Location = new System.Drawing.Point(355, 112);
+            this.lab_Name.Name = "lab_Name";
+            this.lab_Name.Size = new System.Drawing.Size(125, 12);
+            this.lab_Name.TabIndex = 19;
+            this.lab_Name.Text = "请输入11位数字账号！";
+            // 
+            // lab_Password
+            // 
+            this.lab_Password.AutoSize = true;
+            this.lab_Password.Location = new System.Drawing.Point(355, 149);
+            this.lab_Password.Name = "lab_Password";
+            this.lab_Password.Size = new System.Drawing.Size(77, 12);
+            this.lab_Password.TabIndex = 20;
+            this.lab_Password.Text = "请输入密码！";
+            // 
+            // lab_PwdConfirm
+            // 
+            this.lab_PwdConfirm.AutoSize = true;
+            this.lab_PwdConfirm.Location = new System.Drawing.Point(355, 191);
+            this.lab_PwdConfirm.Name = "lab_PwdConfirm";
+            this.lab_PwdConfirm.Size = new System.Drawing.Size(101, 12);
+            this.lab_PwdConfirm.TabIndex = 21;
+            this.lab_PwdConfirm.Text = "请再次输入密码！";
             // 
             // frm_Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 298);
+            this.Controls.Add(this.lab_PwdConfirm);
+            this.Controls.Add(this.lab_Password);
+            this.Controls.Add(this.lab_Name);
+            this.Controls.Add(this.lab_Email);
             this.Controls.Add(this.txt_RegisterConfirm);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_RegisterSave);
@@ -160,5 +206,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_RegisterConfirm;
+        private System.Windows.Forms.Label lab_Email;
+        private System.Windows.Forms.Label lab_Name;
+        private System.Windows.Forms.Label lab_Password;
+        private System.Windows.Forms.Label lab_PwdConfirm;
     }
 }

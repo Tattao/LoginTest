@@ -58,6 +58,7 @@
             this.chk_SavePwd.TabIndex = 1;
             this.chk_SavePwd.Text = "保存密码";
             this.chk_SavePwd.UseVisualStyleBackColor = true;
+            this.chk_SavePwd.CheckedChanged += new System.EventHandler(this.chk_SavePwd_CheckedChanged);
             // 
             // txt_AccountName
             // 

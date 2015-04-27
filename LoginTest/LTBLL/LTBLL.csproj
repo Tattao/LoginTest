@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailCheck.cs" />
     <Compile Include="LT_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetrievePwd.cs" />
+    <Compile Include="SavePassword.cs" />
+    <Compile Include="Security.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LTDAL\LTDAL.csproj">
