@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTDAL", "LTDAL\LTDAL.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTBLL", "LTBLL\LTBLL.csproj", "{8569D8C0-AD44-48CD-96D7-167F36098D15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTModel", "LTModel\LTModel.csproj", "{EB5A0EBF-BEFA-43CD-98E7-A62BBE06DA34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8569D8C0-AD44-48CD-96D7-167F36098D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8569D8C0-AD44-48CD-96D7-167F36098D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8569D8C0-AD44-48CD-96D7-167F36098D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5A0EBF-BEFA-43CD-98E7-A62BBE06DA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5A0EBF-BEFA-43CD-98E7-A62BBE06DA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5A0EBF-BEFA-43CD-98E7-A62BBE06DA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5A0EBF-BEFA-43CD-98E7-A62BBE06DA34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,6 +48,7 @@
             this.btn_RegisterSave.TabIndex = 15;
             this.btn_RegisterSave.Text = "保存";
             this.btn_RegisterSave.UseVisualStyleBackColor = true;
+            this.btn_RegisterSave.Click += new System.EventHandler(this.btn_RegisterSave_Click);
             // 
             // txt_RegisterPwd
             // 

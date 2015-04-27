@@ -9,3 +9,10 @@ E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.pdb
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_Login.resources
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_Register.resources
 E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_RetrievePwd.resources
+E:\GitHub\LoginTest\LoginTest\LoginTest\obj\Debug\LoginTest.frm_test.resources
+E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LTBLL.dll
+E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LTModel.dll
+E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LTDAL.dll
+E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LTBLL.pdb
+E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LTModel.pdb
+E:\GitHub\LoginTest\LoginTest\LoginTest\bin\Debug\LTDAL.pdb

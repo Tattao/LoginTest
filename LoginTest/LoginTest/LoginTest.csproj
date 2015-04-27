@@ -62,6 +62,12 @@
     <Compile Include="frm_RetrievePwd.Designer.cs">
       <DependentUpon>frm_RetrievePwd.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_test.Designer.cs">
+      <DependentUpon>frm_test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_Login.resx">
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_RetrievePwd.resx">
       <DependentUpon>frm_RetrievePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_test.resx">
+      <DependentUpon>frm_test.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,6 +103,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LTBLL\LTBLL.csproj">
+      <Project>{8569d8c0-ad44-48cd-96d7-167f36098d15}</Project>
+      <Name>LTBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LTModel\LTModel.csproj">
+      <Project>{eb5a0ebf-befa-43cd-98e7-a62bbe06da34}</Project>
+      <Name>LTModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
