@@ -1,0 +1,7 @@
+E:\GitHub\LoginTest\LoginTest\LTDAL\bin\Debug\LTDAL.dll
+E:\GitHub\LoginTest\LoginTest\LTDAL\bin\Debug\LTDAL.pdb
+E:\GitHub\LoginTest\LoginTest\LTDAL\bin\Debug\LTModel.dll
+E:\GitHub\LoginTest\LoginTest\LTDAL\bin\Debug\LTModel.pdb
+E:\GitHub\LoginTest\LoginTest\LTDAL\obj\Debug\LTDAL.csprojResolveAssemblyReference.cache
+E:\GitHub\LoginTest\LoginTest\LTDAL\obj\Debug\LTDAL.dll
+E:\GitHub\LoginTest\LoginTest\LTDAL\obj\Debug\LTDAL.pdb

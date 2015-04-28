@@ -1,0 +1,9 @@
+E:\GitHub\LoginTest\LoginTest\LTBLL\bin\Debug\LTBLL.dll
+E:\GitHub\LoginTest\LoginTest\LTBLL\bin\Debug\LTBLL.pdb
+E:\GitHub\LoginTest\LoginTest\LTBLL\bin\Debug\LTDAL.dll
+E:\GitHub\LoginTest\LoginTest\LTBLL\bin\Debug\LTModel.dll
+E:\GitHub\LoginTest\LoginTest\LTBLL\bin\Debug\LTDAL.pdb
+E:\GitHub\LoginTest\LoginTest\LTBLL\bin\Debug\LTModel.pdb
+E:\GitHub\LoginTest\LoginTest\LTBLL\obj\Debug\LTBLL.csprojResolveAssemblyReference.cache
+E:\GitHub\LoginTest\LoginTest\LTBLL\obj\Debug\LTBLL.dll
+E:\GitHub\LoginTest\LoginTest\LTBLL\obj\Debug\LTBLL.pdb

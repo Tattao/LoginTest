@@ -1,0 +1,5 @@
+E:\GitHub\LoginTest\LoginTest\LTModel\bin\Debug\LTModel.dll
+E:\GitHub\LoginTest\LoginTest\LTModel\bin\Debug\LTModel.pdb
+E:\GitHub\LoginTest\LoginTest\LTModel\obj\Debug\LTModel.csprojResolveAssemblyReference.cache
+E:\GitHub\LoginTest\LoginTest\LTModel\obj\Debug\LTModel.dll
+E:\GitHub\LoginTest\LoginTest\LTModel\obj\Debug\LTModel.pdb
